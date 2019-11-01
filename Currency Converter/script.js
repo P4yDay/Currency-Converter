@@ -2,7 +2,7 @@ var app = angular.module("MyApp", []).
 controller("InvoiceController", function() {
   this.currencies = ["AED"];
   this.inCurr = "AED";
-  this.outCurr = "AFN";
+  this.outCurr = "ANG";
   this.inrToForeignRates = {
      "AED":4.099085,
     "AFN":86.942825,
