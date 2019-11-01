@@ -1,5 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
+// make a variable name for the HTML
 @Pipe({
     name: 'convert'
 })
