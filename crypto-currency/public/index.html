@@ -10,6 +10,7 @@
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="https://assets-global.website-files.com/5bc662b786ecfc12c8d29e0b/5d07c76a696bfc4b3cb88294_cryptocurrency.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -19,13 +20,31 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Cryptocurrency</title>
+
+    <style> 
+    
+      /* Used to center the gif and button*/
+      #center 
+      {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+    </style>
+
   </head>
   <body>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
+
+    <h1 id="center" style="font-family: sans-serif; color: aliceblue; font: size 80;" > Cryptocurrency</h1>
+
     <div id="root"></div>
+    <br/>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -36,5 +55,10 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <a class="btn btn-info" href="http://localhost:3001/" id="center" role="button">Go Back To Converter</a>
+    <br/>
+    <br/>
+
+    <img src="https://www.sportsintegrityinitiative.com/wp-content/uploads/2018/03/Cryptocurrency.gif" id="center"/>
   </body>
 </html>
